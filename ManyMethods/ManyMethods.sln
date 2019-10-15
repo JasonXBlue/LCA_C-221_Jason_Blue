@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyMethods", "ManyMethods\ManyMethods.csproj", "{D08F2C4F-7811-4605-A871-B6FFDA8B5FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D08F2C4F-7811-4605-A871-B6FFDA8B5FCF}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{D08F2C4F-7811-4605-A871-B6FFDA8B5FCF}.Debug|anycpu.Build.0 = Debug|anycpu
+		{D08F2C4F-7811-4605-A871-B6FFDA8B5FCF}.Release|anycpu.ActiveCfg = Release|anycpu
+		{D08F2C4F-7811-4605-A871-B6FFDA8B5FCF}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
