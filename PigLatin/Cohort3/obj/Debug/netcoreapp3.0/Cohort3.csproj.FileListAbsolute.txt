@@ -1,0 +1,11 @@
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PigLatin/Cohort3/bin/Debug/netcoreapp3.0/Cohort3
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PigLatin/Cohort3/bin/Debug/netcoreapp3.0/Cohort3.deps.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PigLatin/Cohort3/bin/Debug/netcoreapp3.0/Cohort3.runtimeconfig.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PigLatin/Cohort3/bin/Debug/netcoreapp3.0/Cohort3.runtimeconfig.dev.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PigLatin/Cohort3/bin/Debug/netcoreapp3.0/Cohort3.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PigLatin/Cohort3/bin/Debug/netcoreapp3.0/Cohort3.pdb
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PigLatin/Cohort3/obj/Debug/netcoreapp3.0/Cohort3.csprojAssemblyReference.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PigLatin/Cohort3/obj/Debug/netcoreapp3.0/Cohort3.AssemblyInfoInputs.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PigLatin/Cohort3/obj/Debug/netcoreapp3.0/Cohort3.AssemblyInfo.cs
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PigLatin/Cohort3/obj/Debug/netcoreapp3.0/Cohort3.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PigLatin/Cohort3/obj/Debug/netcoreapp3.0/Cohort3.pdb

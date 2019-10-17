@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{1ECE7619-C451-4E08-8798-86D6A5CF1A6B}|Default">
+  <MonoDevelop.Ide.ItemProperties.Cohort3 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Cohort3/Program.cs">
+    <Files>
+      <File FileName="../ManyMethods.cs" Line="1" Column="1" />
+      <File FileName="Cohort3/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PigLatin" expanded="True">
+            <Node name="Cohort3" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
