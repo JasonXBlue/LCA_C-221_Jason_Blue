@@ -37,11 +37,19 @@ namespace Cohort3
                 Console.WriteLine(word + "ay");
             }
             //if word has a vowel and starts with a consonant, move all the letters before the initial vowel to the end, then add "ay"
-            else if ((AnyVow > -1) && (StartVloc >0))
+            else if ((AnyVow > -1) && (StartVloc > 0))
             {
+                for (int i = 0; i < wordlength; i++)
+                { 
+                
+                    String prefix = word.Substring(0, i+1);
+                    String suffix = word.Substring(i+1, LastLetter);
+                    word = suffix + prefix + "ay";
+                    break;
 
+                }
             }
-            
+            Console.WriteLine(word);
             
 
 
