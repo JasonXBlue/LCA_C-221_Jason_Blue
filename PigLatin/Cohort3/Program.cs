@@ -54,28 +54,6 @@ namespace Cohort3
 
 
 
-
-
-
-
-                /* for (int i = 0; i < wordlength; i++)
-                 { 
-
-                     String prefix = word.Substring(0, i+1);
-                     String suffix = word.Substring(i+1, LastLetter);
-                     word = suffix + prefix + "ay";
-                     break;
-
-                 }
-             }
-             Console.WriteLine(word);*/
-
-
-
-
-
-
-
             }
         }
     }
