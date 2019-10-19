@@ -19,6 +19,7 @@ namespace Cohort3
             bool EndVloc = word.EndsWith('a') || word.EndsWith('e') || word.EndsWith('i') || word.EndsWith('o') || word.EndsWith('u');
             //returns value of -1 if no vowels in word
             int AnyVow = word.IndexOfAny(vowels, 0, LastLetter);
+            int i = 0;
 
             //determines if word begins and ends with vowel and adds "yay" to end of word if true
             if ((StartVloc == 0) && (EndVloc == true))
@@ -39,25 +40,43 @@ namespace Cohort3
             //if word has a vowel and starts with a consonant, move all the letters before the initial vowel to the end, then add "ay"
             else if ((AnyVow > -1) && (StartVloc > 0))
             {
-                for (int i = 0; i < wordlength; i++)
-                { 
-                
-                    String prefix = word.Substring(0, i+1);
-                    String suffix = word.Substring(i+1, LastLetter);
+
+
+                while (i < wordlength)
+                {
+                    string prefix = word.Substring(0, i+1);
+                    string suffix = word.Substring(i+1, LastLetter);
                     word = suffix + prefix + "ay";
+                    i++;
                     break;
-
                 }
+                Console.WriteLine(word);
+
+
+
+
+
+
+
+                /* for (int i = 0; i < wordlength; i++)
+                 { 
+
+                     String prefix = word.Substring(0, i+1);
+                     String suffix = word.Substring(i+1, LastLetter);
+                     word = suffix + prefix + "ay";
+                     break;
+
+                 }
+             }
+             Console.WriteLine(word);*/
+
+
+
+
+
+
+
             }
-            Console.WriteLine(word);
-            
-
-
-
-
-
-
-            
         }
     }
 }
