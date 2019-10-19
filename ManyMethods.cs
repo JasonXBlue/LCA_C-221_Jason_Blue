@@ -45,7 +45,7 @@ namespace ManyMethods
         public static void Catdog()
         {
             Console.WriteLine("Do you prefer cats or dogs?" + "\n");
-            string answer = Console.ReadLine();
+            string answer = Console.ReadLine().ToLower();
             string str1 = ("cats");
             string str2 = answer;
             if (string.Equals(str1, str2))
