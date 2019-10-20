@@ -1,15 +1,14 @@
-﻿<Properties StartupConfiguration="{1ECE7619-C451-4E08-8798-86D6A5CF1A6B}|Default">
-  <MonoDevelop.Ide.ItemProperties.Cohort3 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../ManyMethods/ManyMethods/Program.cs">
+﻿<Properties StartupConfiguration="{D4CBDA74-8952-4888-B678-D002C5EBB2B0}|Default">
+  <MonoDevelop.Ide.ItemProperties.RockPaperScissors FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RockPaperScissors/Program.cs">
     <Files>
-      <File FileName="../ManyMethods/ManyMethods/Program.cs" Line="28" Column="70" />
-      <File FileName="../../../ManyMethods/ManyMethods/Program.cs" Line="115" Column="2" />
+      <File FileName="RockPaperScissors/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PigLatin" expanded="True">
-            <Node name="Cohort3" expanded="True">
+          <Node name="RockPaperScissors" expanded="True">
+            <Node name="RockPaperScissors" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
