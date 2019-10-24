@@ -1,0 +1,3 @@
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TicTacToe/TicTacToe/obj/Debug/netcoreapp3.0/TicTacToe.csprojAssemblyReference.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TicTacToe/TicTacToe/obj/Debug/netcoreapp3.0/TicTacToe.AssemblyInfoInputs.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TicTacToe/TicTacToe/obj/Debug/netcoreapp3.0/TicTacToe.AssemblyInfo.cs
