@@ -9,16 +9,17 @@ namespace TicTacToe
         public static int Row;
         public static int Column;
 
+        public static string[] row1 = { " ", " ", " " };
+        public static string[] row2 = { " ", " ", " " };
+        public static string[] row3 = { " ", " ", " " };
 
-        public static string[][] board =
-        {
-            new string[] {" ", " ", " "},
-            new string[] {" ", " ", " "},
-            new string[] {" ", " ", " "}
-        };
+        public static string[][] board = new string[3][];
 
+        board[0] = row1;
+        board[1] = row2;
+        board[2] = row3;
+        
 
-    
         public static void Main()
         {
             do
@@ -171,5 +172,11 @@ namespace TicTacToe
             }
 
         }
+
+        
     }
+
+    
+
+    
 }
