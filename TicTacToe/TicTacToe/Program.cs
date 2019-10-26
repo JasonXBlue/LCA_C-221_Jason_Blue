@@ -47,6 +47,16 @@ namespace TicTacToe
 
             Console.WriteLine("Player X enter a column: ");
             Column = int.Parse(Console.ReadLine());
+
+            board[Row][Column] = "X";
+
+            Console.WriteLine("Player O enter a row: ");
+            Row = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Player O enter a column: ");
+            Column = int.Parse(Console.ReadLine());
+
+            board[Row][Column] = "O";
         }
 
         //method to print board to console
@@ -135,14 +145,30 @@ namespace TicTacToe
 
         public static bool HasWon()
         {
-            IsHorizontalWin();
-            IsVerticalWin();
-            IsDiagonalWin();
+            if ((IsHorizontalWin()) || (IsVerticalWin()) || (IsDiagonalWin()) == true)                            
+            {
+                return true;
+
+            }
+            else
+            {
+                return false;
+            }
 
         }
 
         public static bool IsTie()
         {
+            if ((!HasWon()) && (board[1][1] != " ") && (board[1][2] != " ") && (board[1][3] != " ") &&
+                (board[2][1] != " ") && (board[2][2] != " ") && (board[2][3] != " ") &&
+                (board[3][1] != " ") && (board[3][2] != " ") && (board[3][3] != " "))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
 
         }
     }

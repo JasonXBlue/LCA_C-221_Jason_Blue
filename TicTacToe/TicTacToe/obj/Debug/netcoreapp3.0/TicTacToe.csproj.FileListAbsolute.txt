@@ -1,3 +1,11 @@
 /Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TicTacToe/TicTacToe/obj/Debug/netcoreapp3.0/TicTacToe.csprojAssemblyReference.cache
 /Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TicTacToe/TicTacToe/obj/Debug/netcoreapp3.0/TicTacToe.AssemblyInfoInputs.cache
 /Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TicTacToe/TicTacToe/obj/Debug/netcoreapp3.0/TicTacToe.AssemblyInfo.cs
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TicTacToe/TicTacToe/bin/Debug/netcoreapp3.0/TicTacToe
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TicTacToe/TicTacToe/bin/Debug/netcoreapp3.0/TicTacToe.deps.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TicTacToe/TicTacToe/bin/Debug/netcoreapp3.0/TicTacToe.runtimeconfig.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TicTacToe/TicTacToe/bin/Debug/netcoreapp3.0/TicTacToe.runtimeconfig.dev.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TicTacToe/TicTacToe/bin/Debug/netcoreapp3.0/TicTacToe.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TicTacToe/TicTacToe/bin/Debug/netcoreapp3.0/TicTacToe.pdb
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TicTacToe/TicTacToe/obj/Debug/netcoreapp3.0/TicTacToe.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TicTacToe/TicTacToe/obj/Debug/netcoreapp3.0/TicTacToe.pdb
