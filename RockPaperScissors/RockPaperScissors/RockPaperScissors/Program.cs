@@ -4,8 +4,9 @@ namespace RockPaperScissors
 {
     class Program
     {
-        int PlayerScore = 0;
-        int CompScore = 0;
+        //int PlayerScore = 0; (score tracking work in progress)
+        //int CompScore = 0;   (score tracking work in progress)
+        //main program/method
         static void Main(string[] args)
         {
             do
@@ -13,8 +14,8 @@ namespace RockPaperScissors
                 Game();
                 Console.WriteLine("Play again? (yes/no)");
             } while (Console.ReadLine().ToLower() == "yes");
-
-        }   
+        }
+        //game method that randomly assigns computer hand and calls CompareHands to determine winner
         public static void Game()
         {
             Console.WriteLine("Lets go! Rock, Paper, Scissors?");
@@ -40,27 +41,26 @@ namespace RockPaperScissors
                     break;
             }
             CompareHands(hand1, hand2);
-            
-
         }
+            //method that compares user hand to computer hand to determine winner
             public static void CompareHands(String hand1, String hand2)
         {
-            int PlayerScore = 0;
-            int CompScore = 0; 
+            //int PlayerScore = 0; (score tracking work in progress)
+            //int CompScore = 0;   (score tracking work in progress)
             if ((hand1 == "rock") && (hand2 == "scissors"))
             {
                 Console.WriteLine("You win!");
-                PlayerScore++;
+                //PlayerScore++; (score tracking work in progress)
             }
             else if ((hand1 == "scissors") && (hand2 == "paper"))
             {
                 Console.WriteLine("You win!");
-                PlayerScore++;
+                //PlayerScore++; (score tracking work in progress)
             }
             else if ((hand1 == "paper") && (hand2 == "rock"))
             {
                 Console.WriteLine("You win!");
-                PlayerScore++;
+                //PlayerScore++; (score tracking work in progress)
             }
             else if (hand1 == hand2)
             {
@@ -69,16 +69,15 @@ namespace RockPaperScissors
             else
             {
                 Console.WriteLine("Computer wins!");
-                CompScore++;
+                //CompScore++; (score tracking work in progress)
             }
-            
         }
-
-        public static void Score(int PlayerScore, int CompScore)
+        //method to track score for further practice (work in progress)
+        /*public static void Score(int PlayerScore, int CompScore)
         {
             
 
-        }
+        }*/
 
     }
 }
