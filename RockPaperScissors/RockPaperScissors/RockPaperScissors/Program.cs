@@ -27,10 +27,10 @@ namespace RockPaperScissors
             //assigns computers play of rock, paper or scissors randomly
             switch (randomNumber)
             {
-                case 0:
-                    Console.WriteLine("rock");
-                    hand2 = "rock";
-                    break;
+            case 0:
+                Console.WriteLine("rock");
+                hand2 = "rock";
+                break;
                 case 1:
                     Console.WriteLine("paper");
                     hand2 = "paper";
@@ -81,3 +81,6 @@ namespace RockPaperScissors
 
     }
 }
+
+
+
