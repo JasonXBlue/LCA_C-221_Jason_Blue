@@ -1,14 +1,13 @@
-﻿<Properties StartupConfiguration="{D4CBDA74-8952-4888-B678-D002C5EBB2B0}|Default">
-  <MonoDevelop.Ide.ItemProperties.RockPaperScissors PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RockPaperScissors/Program.cs">
+﻿<Properties StartupConfiguration="{AE1A75D1-0C36-41D7-91D0-78DE4F1AA3B4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mastermind/Program.cs">
     <Files>
-      <File FileName="RockPaperScissors/Program.cs" Line="37" Column="27" />
+      <File FileName="Mastermind/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="RockPaperScissors" expanded="True">
-            <Node name="RockPaperScissors" expanded="True">
+          <Node name="Mastermind" expanded="True">
+            <Node name="Mastermind" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -18,6 +17,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Mastermind FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

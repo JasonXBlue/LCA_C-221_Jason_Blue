@@ -1,0 +1,11 @@
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Mastermind/Mastermind/bin/Debug/netcoreapp3.0/Mastermind
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Mastermind/Mastermind/bin/Debug/netcoreapp3.0/Mastermind.deps.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Mastermind/Mastermind/bin/Debug/netcoreapp3.0/Mastermind.runtimeconfig.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Mastermind/Mastermind/bin/Debug/netcoreapp3.0/Mastermind.runtimeconfig.dev.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Mastermind/Mastermind/bin/Debug/netcoreapp3.0/Mastermind.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Mastermind/Mastermind/bin/Debug/netcoreapp3.0/Mastermind.pdb
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Mastermind/Mastermind/obj/Debug/netcoreapp3.0/Mastermind.csprojAssemblyReference.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Mastermind/Mastermind/obj/Debug/netcoreapp3.0/Mastermind.AssemblyInfoInputs.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Mastermind/Mastermind/obj/Debug/netcoreapp3.0/Mastermind.AssemblyInfo.cs
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Mastermind/Mastermind/obj/Debug/netcoreapp3.0/Mastermind.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Mastermind/Mastermind/obj/Debug/netcoreapp3.0/Mastermind.pdb
