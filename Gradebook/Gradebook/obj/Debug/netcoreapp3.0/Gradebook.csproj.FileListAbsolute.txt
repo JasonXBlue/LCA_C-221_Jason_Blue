@@ -1,0 +1,11 @@
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Gradebook/Gradebook/bin/Debug/netcoreapp3.0/Gradebook
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Gradebook/Gradebook/bin/Debug/netcoreapp3.0/Gradebook.deps.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Gradebook/Gradebook/bin/Debug/netcoreapp3.0/Gradebook.runtimeconfig.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Gradebook/Gradebook/bin/Debug/netcoreapp3.0/Gradebook.runtimeconfig.dev.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Gradebook/Gradebook/bin/Debug/netcoreapp3.0/Gradebook.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Gradebook/Gradebook/bin/Debug/netcoreapp3.0/Gradebook.pdb
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Gradebook/Gradebook/obj/Debug/netcoreapp3.0/Gradebook.csprojAssemblyReference.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Gradebook/Gradebook/obj/Debug/netcoreapp3.0/Gradebook.AssemblyInfoInputs.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Gradebook/Gradebook/obj/Debug/netcoreapp3.0/Gradebook.AssemblyInfo.cs
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Gradebook/Gradebook/obj/Debug/netcoreapp3.0/Gradebook.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Gradebook/Gradebook/obj/Debug/netcoreapp3.0/Gradebook.pdb

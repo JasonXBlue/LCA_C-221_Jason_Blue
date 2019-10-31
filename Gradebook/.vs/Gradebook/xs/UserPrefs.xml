@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{EAFBD604-AD7E-4E62-AF6C-1CEC6575BEB8}|Default">
+  <MonoDevelop.Ide.ItemProperties.Gradebook FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Gradebook/Program.cs">
+    <Files>
+      <File FileName="Gradebook/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
