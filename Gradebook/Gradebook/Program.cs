@@ -9,7 +9,7 @@ namespace Gradebook
         public static string Input;
         public static string Name;
         public static string Grades;
-        public static Dictionary<string, string[]> StudentGrades = new Dictionary<string, string[]>();
+        public static Dictionary<string, string> StudentGrades = new Dictionary<string, string>();
         static void Main(string[] args)
         {
             while (true)
@@ -26,7 +26,7 @@ namespace Gradebook
                 }
                 Console.WriteLine("Enter the students grades separated by spaces (100 90 78 101 45 81) :");
                 Grades = Console.ReadLine();
-                StudentGrades.Add(Name, new string[] { Grades });
+                StudentGrades.Add(Name, Grades);
             }
             Calculations();
         }
@@ -34,11 +34,11 @@ namespace Gradebook
         {
             foreach (var item in StudentGrades)
             {   
-                string[] Nums = Grades.Split(" ", Grades.Length, StringSplitOptions.RemoveEmptyEntries);
+                string[] Nums = item.Value.Split(" ", item.Value.Length, StringSplitOptions.RemoveEmptyEntries);
                 int[] myInts = Array.ConvertAll(Nums, int.Parse);
                 int average = (int)myInts.Average();
                 Console.WriteLine(" ");
-                Console.WriteLine(Name);
+                Console.WriteLine(item.Key);
                 Console.WriteLine(" ");
                 Console.WriteLine("Average is : " + average);
                 Console.WriteLine(" ");

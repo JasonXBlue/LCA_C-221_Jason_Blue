@@ -1,0 +1,11 @@
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TowersOfHanoi/TowersOfHanoi/bin/Debug/netcoreapp3.0/TowersOfHanoi
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TowersOfHanoi/TowersOfHanoi/bin/Debug/netcoreapp3.0/TowersOfHanoi.deps.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TowersOfHanoi/TowersOfHanoi/bin/Debug/netcoreapp3.0/TowersOfHanoi.runtimeconfig.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TowersOfHanoi/TowersOfHanoi/bin/Debug/netcoreapp3.0/TowersOfHanoi.runtimeconfig.dev.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TowersOfHanoi/TowersOfHanoi/bin/Debug/netcoreapp3.0/TowersOfHanoi.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TowersOfHanoi/TowersOfHanoi/bin/Debug/netcoreapp3.0/TowersOfHanoi.pdb
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TowersOfHanoi/TowersOfHanoi/obj/Debug/netcoreapp3.0/TowersOfHanoi.csprojAssemblyReference.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TowersOfHanoi/TowersOfHanoi/obj/Debug/netcoreapp3.0/TowersOfHanoi.AssemblyInfoInputs.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TowersOfHanoi/TowersOfHanoi/obj/Debug/netcoreapp3.0/TowersOfHanoi.AssemblyInfo.cs
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TowersOfHanoi/TowersOfHanoi/obj/Debug/netcoreapp3.0/TowersOfHanoi.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TowersOfHanoi/TowersOfHanoi/obj/Debug/netcoreapp3.0/TowersOfHanoi.pdb
