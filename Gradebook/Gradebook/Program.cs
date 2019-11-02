@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Globalization;
 
 namespace Gradebook
 {
@@ -19,6 +20,8 @@ namespace Gradebook
                 if (Input != "quit")
                 {
                     Name = Input;
+                    //Name = char.ToUpper(Name[0]) + Name.Substring(1);
+                    Name = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(Name.ToLower());
                 }       
                 else if (Input == "quit")
                 {
@@ -36,15 +39,12 @@ namespace Gradebook
             {   
                 string[] Nums = item.Value.Split(" ", item.Value.Length, StringSplitOptions.RemoveEmptyEntries);
                 int[] myInts = Array.ConvertAll(Nums, int.Parse);
-                int average = (int)myInts.Average();
+                decimal average = (decimal)myInts.Average();
                 Console.WriteLine(" ");
                 Console.WriteLine(item.Key);
-                Console.WriteLine(" ");
-                Console.WriteLine("Average is : " + average);
-                Console.WriteLine(" ");
+                Console.WriteLine("\n" + "Average grade is : " + average);
                 Console.WriteLine("Highest grade is : " + myInts.Max());
-                Console.WriteLine(" ");
-                Console.WriteLine("Lowest grade is : " + myInts.Min());
+                Console.WriteLine("Lowest  grade is : " + myInts.Min());
             }
 
         }
