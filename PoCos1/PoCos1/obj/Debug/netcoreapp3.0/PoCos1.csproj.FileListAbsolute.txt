@@ -1,0 +1,11 @@
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PoCos1/PoCos1/bin/Debug/netcoreapp3.0/PoCos1
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PoCos1/PoCos1/bin/Debug/netcoreapp3.0/PoCos1.deps.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PoCos1/PoCos1/bin/Debug/netcoreapp3.0/PoCos1.runtimeconfig.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PoCos1/PoCos1/bin/Debug/netcoreapp3.0/PoCos1.runtimeconfig.dev.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PoCos1/PoCos1/bin/Debug/netcoreapp3.0/PoCos1.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PoCos1/PoCos1/bin/Debug/netcoreapp3.0/PoCos1.pdb
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PoCos1/PoCos1/obj/Debug/netcoreapp3.0/PoCos1.csprojAssemblyReference.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PoCos1/PoCos1/obj/Debug/netcoreapp3.0/PoCos1.AssemblyInfoInputs.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PoCos1/PoCos1/obj/Debug/netcoreapp3.0/PoCos1.AssemblyInfo.cs
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PoCos1/PoCos1/obj/Debug/netcoreapp3.0/PoCos1.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/PoCos1/PoCos1/obj/Debug/netcoreapp3.0/PoCos1.pdb
