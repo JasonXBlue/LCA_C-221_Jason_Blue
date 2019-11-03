@@ -19,18 +19,22 @@ namespace TowersOfHanoi
                 {"B", new Stack<int>() },
                 {"C", new Stack<int>() },
             };
-            for (int i = 1; i <= 4; i++)
+            for (int i = 4; i >= 1; i--)
             {
                 Towers["A"].Push(i);
             }
-            GameBoard(Towers);
-            Console.WriteLine("\n" + "Which tower do you want to move the top piece from?");
-            string FromStack = Console.ReadLine().ToUpper();
-            Console.WriteLine("\n" + "Which tower do you want to move the piece to?");
-            string ToStack = Console.ReadLine().ToUpper();
-            LegalMove(Towers, FromStack, ToStack);
+            while (Towers["C"].Count != 4)
+            {
+                InitBoard(Towers);
+                Console.WriteLine("\n" + "Which tower do you want to move the top piece from?");
+                string FromStack = Console.ReadLine().ToUpper();
+                Console.WriteLine("\n" + "Which tower do you want to move the piece to?");
+                string ToStack = Console.ReadLine().ToUpper();
+                GameMove(Towers, FromStack, ToStack);
+                
+            }
         }
-        static void GameBoard(Dictionary<string, Stack<int>> Towers)
+        static void InitBoard(Dictionary<string, Stack<int>> Towers)
         {
             foreach (var item in Towers)
             {
@@ -45,20 +49,43 @@ namespace TowersOfHanoi
             }
 
         }
-        public static void LegalMove(Dictionary<string, Stack<int>> Towers, string FromStack, string ToStack)
+        public static bool LegalMove(Dictionary<string, Stack<int>> Towers, string FromStack, string ToStack)
         {
-            
-            
+
             if (Towers[FromStack].Count == 0)
             {
-                Console.WriteLine("Illegal move. Please enter a valid tower: ");
+                //Console.WriteLine("Illegal move. Please enter a valid tower: ");
+                return false;
             }
-            else if (Towers[FromStack].Peek() > Towers[ToStack].Peek())
+            else if (Towers[ToStack].Count == 0) 
+            {
+                return true;
+            }
+            else if(Towers[FromStack].Peek() > Towers[ToStack].Peek())
+            {
+                //Console.WriteLine("Illegal move. Please enter a valid tower: ");
+                return false;
+            }
+            else if (Towers[FromStack].Peek() == Towers[ToStack].Peek())
+            {
+                //Console.WriteLine("Illegal move. Please enter a valid tower: ");
+                return false;
+            }
+            return true;
+        }
+        public static void GameMove(Dictionary<string, Stack<int>> Towers, string FromStack, string ToStack)
+        {
+            if (LegalMove(Towers, FromStack, ToStack))
+            {
+                int i = Towers[FromStack].Peek();
+                Console.WriteLine(i);
+                Towers[ToStack].Push(i);
+                Towers[FromStack].Pop();
+            }
+            else
             {
                 Console.WriteLine("Illegal move. Please enter a valid tower: ");
             }
         }
-
-
     }
 }
