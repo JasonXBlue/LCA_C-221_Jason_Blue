@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace TowersOfHanoi
 {
@@ -38,8 +39,6 @@ namespace TowersOfHanoi
         {
             foreach (var item in Towers)
             {
-
-
                 Console.Write(item.Key + "| ");
                 foreach (int X in item.Value)
                 {
