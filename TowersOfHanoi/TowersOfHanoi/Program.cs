@@ -33,7 +33,7 @@ namespace TowersOfHanoi
                 string ToStack = Console.ReadLine().ToUpper();
                 GameMove(Towers, FromStack, ToStack);
                 
-            }
+            } Console.WriteLine("You win!");
         }
         static void InitBoard(Dictionary<string, Stack<int>> Towers)
         {
