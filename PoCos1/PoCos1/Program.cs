@@ -68,6 +68,8 @@ namespace PoCos
 
     class Book
     {
+        //public string[] Auth = new string[4];
+        //public string[] InitAuth = new string[4];
         public string Title { get; set; }
         public string Authors { get; set; }
         public int Pages { get; set; }
@@ -78,6 +80,7 @@ namespace PoCos
         public Book(string InitTitle, string InitAuthors, int InitPages, int InitSku, string InitPublisher, double InitPrice)
         {
             this.Title = InitTitle;
+            //this.Auth = InitAuth;
             this.Authors = InitAuthors;
             this.Pages = InitPages;
             this.Sku = InitSku;
