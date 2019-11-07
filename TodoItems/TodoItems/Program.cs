@@ -29,7 +29,12 @@ namespace TodoItems
             }
             while (!Quit)
             {
-                Console.WriteLine("Please enter an item");
+                Console.WriteLine("Please enter an item description:");
+                String Item = Console.ReadLine();
+                Console.WriteLine("Please enter the due date as MM/DD/YYYY including / in your entry:");
+                String Date = Console.ReadLine();
+                Console.WriteLine("Please enter the priorty (High, Normal, or Low");
+                String Priority = Console.ReadLine().ToUpper();
             }
             
         }
