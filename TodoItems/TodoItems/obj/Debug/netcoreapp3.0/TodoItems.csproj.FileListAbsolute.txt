@@ -1,0 +1,11 @@
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TodoItems/TodoItems/bin/Debug/netcoreapp3.0/TodoItems
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TodoItems/TodoItems/bin/Debug/netcoreapp3.0/TodoItems.deps.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TodoItems/TodoItems/bin/Debug/netcoreapp3.0/TodoItems.runtimeconfig.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TodoItems/TodoItems/bin/Debug/netcoreapp3.0/TodoItems.runtimeconfig.dev.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TodoItems/TodoItems/bin/Debug/netcoreapp3.0/TodoItems.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TodoItems/TodoItems/bin/Debug/netcoreapp3.0/TodoItems.pdb
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TodoItems/TodoItems/obj/Debug/netcoreapp3.0/TodoItems.csprojAssemblyReference.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TodoItems/TodoItems/obj/Debug/netcoreapp3.0/TodoItems.AssemblyInfoInputs.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TodoItems/TodoItems/obj/Debug/netcoreapp3.0/TodoItems.AssemblyInfo.cs
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TodoItems/TodoItems/obj/Debug/netcoreapp3.0/TodoItems.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/TodoItems/TodoItems/obj/Debug/netcoreapp3.0/TodoItems.pdb
