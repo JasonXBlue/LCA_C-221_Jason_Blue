@@ -1,0 +1,11 @@
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/SuperHeroes/SuperHeroes/bin/Debug/netcoreapp3.0/SuperHeroes
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/SuperHeroes/SuperHeroes/bin/Debug/netcoreapp3.0/SuperHeroes.deps.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/SuperHeroes/SuperHeroes/bin/Debug/netcoreapp3.0/SuperHeroes.runtimeconfig.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/SuperHeroes/SuperHeroes/bin/Debug/netcoreapp3.0/SuperHeroes.runtimeconfig.dev.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/SuperHeroes/SuperHeroes/bin/Debug/netcoreapp3.0/SuperHeroes.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/SuperHeroes/SuperHeroes/bin/Debug/netcoreapp3.0/SuperHeroes.pdb
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/SuperHeroes/SuperHeroes/obj/Debug/netcoreapp3.0/SuperHeroes.csprojAssemblyReference.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/SuperHeroes/SuperHeroes/obj/Debug/netcoreapp3.0/SuperHeroes.AssemblyInfoInputs.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/SuperHeroes/SuperHeroes/obj/Debug/netcoreapp3.0/SuperHeroes.AssemblyInfo.cs
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/SuperHeroes/SuperHeroes/obj/Debug/netcoreapp3.0/SuperHeroes.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/SuperHeroes/SuperHeroes/obj/Debug/netcoreapp3.0/SuperHeroes.pdb
