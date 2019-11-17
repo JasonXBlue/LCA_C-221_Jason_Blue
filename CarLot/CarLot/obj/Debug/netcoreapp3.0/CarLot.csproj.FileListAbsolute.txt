@@ -1,0 +1,11 @@
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/CarLot/CarLot/bin/Debug/netcoreapp3.0/CarLot
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/CarLot/CarLot/bin/Debug/netcoreapp3.0/CarLot.deps.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/CarLot/CarLot/bin/Debug/netcoreapp3.0/CarLot.runtimeconfig.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/CarLot/CarLot/bin/Debug/netcoreapp3.0/CarLot.runtimeconfig.dev.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/CarLot/CarLot/bin/Debug/netcoreapp3.0/CarLot.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/CarLot/CarLot/bin/Debug/netcoreapp3.0/CarLot.pdb
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/CarLot/CarLot/obj/Debug/netcoreapp3.0/CarLot.csprojAssemblyReference.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/CarLot/CarLot/obj/Debug/netcoreapp3.0/CarLot.AssemblyInfoInputs.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/CarLot/CarLot/obj/Debug/netcoreapp3.0/CarLot.AssemblyInfo.cs
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/CarLot/CarLot/obj/Debug/netcoreapp3.0/CarLot.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/CarLot/CarLot/obj/Debug/netcoreapp3.0/CarLot.pdb
