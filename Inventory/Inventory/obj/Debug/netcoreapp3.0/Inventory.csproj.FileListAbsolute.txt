@@ -1,0 +1,11 @@
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Inventory/Inventory/bin/Debug/netcoreapp3.0/Inventory
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Inventory/Inventory/bin/Debug/netcoreapp3.0/Inventory.deps.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Inventory/Inventory/bin/Debug/netcoreapp3.0/Inventory.runtimeconfig.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Inventory/Inventory/bin/Debug/netcoreapp3.0/Inventory.runtimeconfig.dev.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Inventory/Inventory/bin/Debug/netcoreapp3.0/Inventory.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Inventory/Inventory/bin/Debug/netcoreapp3.0/Inventory.pdb
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Inventory/Inventory/obj/Debug/netcoreapp3.0/Inventory.csprojAssemblyReference.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Inventory/Inventory/obj/Debug/netcoreapp3.0/Inventory.AssemblyInfoInputs.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Inventory/Inventory/obj/Debug/netcoreapp3.0/Inventory.AssemblyInfo.cs
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Inventory/Inventory/obj/Debug/netcoreapp3.0/Inventory.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Inventory/Inventory/obj/Debug/netcoreapp3.0/Inventory.pdb
