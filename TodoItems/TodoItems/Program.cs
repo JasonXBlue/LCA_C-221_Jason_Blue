@@ -70,7 +70,7 @@ namespace TodoItems
         }
         public void PrintList()
         {
-            Console.WriteLine(" " + (Item) + "|" + (Date) + "|" + (Priority));
+            Console.WriteLine(" " + (Item) + "             |" + (Date) + "  |"+ "    " + (Priority));
         }
     }
 
