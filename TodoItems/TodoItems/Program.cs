@@ -9,11 +9,8 @@ namespace TodoItems
         {
             bool Check = false;
             bool Quit = false;
-            int Count = 0;
-
-            List<string> ItemList = new List<string>();
-            List<string> DateList = new List<string>();
-            List<string> PriorityList = new List<string>();
+      
+            List<ToDoItem> MyList = new List<ToDoItem>();
             while (!Check)
             {
                 Console.WriteLine("Enter A to add an item or Enter Q to quit:");
@@ -25,15 +22,11 @@ namespace TodoItems
                     {
                         Console.WriteLine("Please enter an item description:");
                         String Item = Console.ReadLine();
-                        ItemList.Add(Item);
                         Console.WriteLine("Please enter the due date as MM/DD/YYYY including / in your entry:");
                         String Date = Console.ReadLine();
-                        DateList.Add(Date);
                         Console.WriteLine("Please enter the priorty (High, Normal, or Low");
                         String Priority = Console.ReadLine().ToUpper();
-                        PriorityList.Add(Priority);
-                        Count++;
-
+                        MyList.Add(new ToDoItem(Item, Date, Priority));
                         Console.WriteLine("Enter A to add an item or Enter Q to quit:");
                         String Response1 = Console.ReadLine().ToUpper();
                         if (Response1 == "Q")
@@ -52,29 +45,33 @@ namespace TodoItems
 
                     }
                 }
-                Console.WriteLine(Count);
-                foreach (string s in ItemList)
+                Console.WriteLine("Description       |  Due Date  |  Priority");
+                Console.WriteLine("------------------|------------|----------");
+                foreach (ToDoItem Items in MyList)
                 {
-                    Console.Write(s + " |");
+
+                    Items.PrintList();
                 }
-                foreach (string s in DateList)
-                {
-                    Console.Write(s + " |");
-                }
-                foreach (string s in PriorityList)
-                {
-                    Console.Write(s);
-                }
-                
             }
             
         }
     }
     class ToDoItem
     {
-        public string Description { get; set; }
-        public string DueDate { get; set; }
+        public string Item { get; set; }
+        public string Date { get; set; }
         public string Priority { get; set; }
+
+        public ToDoItem(string InitItem, string InitDate, string InitPriority)
+        {
+            Item = InitItem;
+            Date = InitDate;
+            Priority = InitPriority;
+        }
+        public void PrintList()
+        {
+            Console.WriteLine(" " + (Item) + "|" + (Date) + "|" + (Priority));
+        }
     }
 
 
