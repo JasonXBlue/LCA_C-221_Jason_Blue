@@ -1,0 +1,3 @@
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Checkers/Checkers/obj/Debug/netcoreapp3.0/Checkers.csprojAssemblyReference.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Checkers/Checkers/obj/Debug/netcoreapp3.0/Checkers.AssemblyInfoInputs.cache
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Checkers/Checkers/obj/Debug/netcoreapp3.0/Checkers.AssemblyInfo.cs
