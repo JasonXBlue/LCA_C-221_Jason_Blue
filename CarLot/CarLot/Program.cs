@@ -13,23 +13,27 @@ namespace CarLots
         {
             CarLot1 = new CarLot("Uno Lot");
             CarLot2 = new CarLot("Dos Lot");
-            //CarLot1.AddVehicle();
+            
             
         }
     }
     class CarLot
     {
-        public string Name { get; set; }
-        public List<Vehicle> VehicleList = new List<Vehicle>();
-        public CarLot(string NameInit)
+        public string Name { get; private set; }
+        private List<Vehicle> VehicleList = new List<Vehicle>();
+        
+
+        public CarLot(string InitialName)
         {
-            Name = NameInit;
+            Name = InitialName;
+            //this.VehicleList = new
         }
         //method that adds vehicle to carlot
-        public void AddVehicle(Vehicle LicenseNumber)
+        public void AddVehicle(Vehicle LicenseNumber, Vehicle Make, Vehicle Model, Vehicle Price)
         {
             //VehicleList.Add;
-            VehicleList.Add(LicenseNumber);
+            
+
             
         }
         //method that prints inventory of carlot, # of vehicles, vehicle details
@@ -44,17 +48,16 @@ namespace CarLots
         public string Make { get; set; }
         public string Model { get; set; }
         public string Price { get; set; }
-        public Vehicle(string LicenseNumberInit, string MakeInit, string ModelInit, string PriceInit)
+        public Vehicle(string LicenseNumber, string Make, string Model, string Price)
         {
-            LicenseNumber = LicenseNumberInit;
-            Make = MakeInit;
-            Model = ModelInit;
-            Price = PriceInit;
+            this.LicenseNumber = LicenseNumber;
+            this.Make = Make;
+            this.Model = Model;
+            this.Price = Price;
         }
-        public void VehicleInfo()
+        public (string LicenseNumber, string Make, string Model, string Price) VehicleInfo()
         {
-            //Console.WriteLine(LicenseNumber, Make, Model, Price);
-            
+            return (LicenseNumber, Make, Model, Price);
         }
     }
     abstract public class Truck : Vehicle

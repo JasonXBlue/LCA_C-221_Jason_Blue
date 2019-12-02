@@ -1,18 +1,15 @@
-﻿<Properties StartupConfiguration="{A2D5285A-B313-4F3F-8B19-DFDCD2E754AF}|Default">
-  <MonoDevelop.Ide.ItemProperties.BooksInventory PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BooksInventory/Program.cs">
-    <Files>
-      <File FileName="BooksInventory/Program.cs" Line="26" Column="85" />
-    </Files>
+﻿<Properties StartupConfiguration="{68DCB535-E4B9-4AEC-84F5-08F3E5459F8B}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="BooksInventory" expanded="True" selected="True" />
+          <Node name="CarLot" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CarLot PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
