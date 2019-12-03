@@ -11,8 +11,9 @@ namespace CarLots
 
         static void Main(string[] args)
         {
-            CarLot1 = new CarLot("Uno Lot");
-            CarLot2 = new CarLot("Dos Lot");
+            CarLot1 = new CarLot("Lot1");
+            CarLot2 = new CarLot("Lot2");
+            CarLot1.AddVehicle();
             
             
         }
@@ -29,9 +30,13 @@ namespace CarLots
             //this.VehicleList = new
         }
         //method that adds vehicle to carlot
-        public void AddVehicle(Vehicle LicenseNumber, Vehicle Make, Vehicle Model, Vehicle Price)
+        //public void AddVehicle(Vehicle LicenseNumber, Vehicle Make, Vehicle Model, Vehicle Price)
+        public void AddVehicle()
         {
             //VehicleList.Add;
+            Truck truck1 = new Truck("8");
+            
+            VehicleList.Add(truck1);
             
 
             
@@ -60,7 +65,7 @@ namespace CarLots
             return (LicenseNumber, Make, Model, Price);
         }
     }
-    abstract public class Truck : Vehicle
+    public class Truck : Vehicle
     {
         public static string LicenseNumberInit { get; private set; }
         public static string MakeInit { get; private set; }
@@ -73,7 +78,7 @@ namespace CarLots
             Bedside = BedSizeInit;
         }
     }
-    abstract public class Car : Vehicle
+    public class Car : Vehicle
     {
         public static string LicenseNumberInit { get; private set; }
         public static string MakeInit { get; private set; }
