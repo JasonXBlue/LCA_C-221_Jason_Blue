@@ -31,10 +31,10 @@ namespace CarLots
         }
         //method that adds vehicle to carlot
         //public void AddVehicle(Vehicle LicenseNumber, Vehicle Make, Vehicle Model, Vehicle Price)
-        public void AddVehicle()
+        public AddVehicle()
         {
-            //VehicleList.Add;
-            Truck truck1 = new Truck("8");
+            
+            Truck truck1 = new Truck("8ft");
             
             VehicleList.Add(truck1);
             
