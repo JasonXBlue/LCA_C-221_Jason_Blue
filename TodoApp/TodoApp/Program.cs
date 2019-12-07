@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace TodoApp
 {
@@ -6,7 +7,9 @@ namespace TodoApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            App app = new App();
+            App.Start();
+
         }
     }
 }

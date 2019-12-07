@@ -1,19 +1,19 @@
 ﻿<Properties StartupConfiguration="{59E8834E-FF2E-4769-83DC-AA68523112C0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TodoApp/ToDoItem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TodoApp/ConsoleUtils.cs">
     <Files>
-      <File FileName="TodoApp/Program.cs" Line="13" Column="1" />
-      <File FileName="TodoApp/App.cs" Line="1" Column="1" />
+      <File FileName="TodoApp/Program.cs" Line="2" Column="26" />
+      <File FileName="TodoApp/App.cs" Line="6" Column="8" />
       <File FileName="TodoApp/ItemRepository.cs" Line="1" Column="1" />
-      <File FileName="TodoApp/ItemContext.cs" Line="1" Column="1" />
-      <File FileName="TodoApp/ConsoleUtils.cs" Line="1" Column="1" />
-      <File FileName="TodoApp/ToDoItem.cs" Line="1" Column="1" />
+      <File FileName="TodoApp/ItemContext.cs" Line="28" Column="1" />
+      <File FileName="TodoApp/ConsoleUtils.cs" Line="36" Column="1" />
+      <File FileName="TodoApp/ToDoItem.cs" Line="11" Column="82" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TodoApp" expanded="True">
             <Node name="TodoApp" expanded="True">
-              <Node name="ToDoItem.cs" selected="True" />
+              <Node name="ConsoleUtils.cs" selected="True" />
             </Node>
           </Node>
         </State>
