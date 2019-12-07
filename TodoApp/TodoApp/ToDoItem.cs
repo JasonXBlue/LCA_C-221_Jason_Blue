@@ -3,17 +3,18 @@ namespace TodoApp
 {
     public class ToDoItem
     {
+        //fields
         public string Description { get; set; }
         public string DueDate { get; private set; }
         public bool Done { get; set; }
         public bool Pending { get; set; }
-
-        public ToDoItem(string Description, string Date, bool Done, bool Pending)
+        //constructor
+        public ToDoItem(string description, string date, bool done, bool pending)
         {
-            //this.Description = InitDescription;
-            //this.DueDate = DueDate;
-            //this.Done = InitDone;
-            //this.Pending = InitStatus;
+            Description = description;
+            DueDate = date;
+            Done = done;
+            Pending = pending;
         }
     }
 }

@@ -5,7 +5,7 @@ namespace TodoApp
 {
     public class ItemContext : DbContext
     {
-        public DbSet<ToDoItem> Items { get; set; }
+        public DbSet<ToDoItem> ItemsList { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -18,10 +18,6 @@ namespace TodoApp
             // to check what the path of the file is, uncomment the file below
             //Console.WriteLine("using database file :"+DatabaseFile);
             optionsBuilder.UseSqlite("Data Source=" + DatabaseFile);
-        }
-
-        public ItemContext()
-        {
         }
     }
 }

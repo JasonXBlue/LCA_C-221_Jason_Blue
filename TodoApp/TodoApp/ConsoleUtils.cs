@@ -15,25 +15,6 @@ namespace TodoApp
             string DateEntry = Console.ReadLine();
             return new ToDoItem(ItemEntry, DateEntry, false, true);
         }
-        public ToDoItem DeleteItem()
-        {
-
-        }
-        public ToDoItem MarkItemDone()
-        {
-
-        }
-        public ToDoItem ListDone()
-        {
-
-        }
-        public ToDoItem ListPending()
-        {
-
-        }
-        public ToDoItem ListAllItems()
-        {
-
-        }
+     
     }
 }
