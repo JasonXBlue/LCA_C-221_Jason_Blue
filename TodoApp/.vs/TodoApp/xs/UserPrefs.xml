@@ -2,11 +2,11 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="TodoApp/ConsoleUtils.cs">
     <Files>
       <File FileName="TodoApp/Program.cs" Line="2" Column="26" />
-      <File FileName="TodoApp/App.cs" Line="6" Column="8" />
-      <File FileName="TodoApp/ItemRepository.cs" Line="1" Column="1" />
-      <File FileName="TodoApp/ItemContext.cs" Line="28" Column="1" />
+      <File FileName="TodoApp/App.cs" />
+      <File FileName="TodoApp/ItemRepository.cs" />
+      <File FileName="TodoApp/ItemContext.cs" />
       <File FileName="TodoApp/ConsoleUtils.cs" Line="36" Column="1" />
-      <File FileName="TodoApp/ToDoItem.cs" Line="11" Column="82" />
+      <File FileName="TodoApp/ToDoItem.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
