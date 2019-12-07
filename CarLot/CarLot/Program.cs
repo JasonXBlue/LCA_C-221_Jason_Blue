@@ -4,16 +4,17 @@ using System.Collections.Generic;
 namespace CarLots
 {
     class Program
-    {
-        private static CarLot CarLot1;
-        private static CarLot CarLot2;
-        private static object Vehicle1;
+    { 
 
         static void Main(string[] args)
         {
-            CarLot1 = new CarLot("Lot1");
-            CarLot2 = new CarLot("Lot2");
-            CarLot1.AddVehicle();
+            CarLot Lot1 = new CarLot("Lot1");
+            CarLot Lot2 = new CarLot("Lot2");
+            Vehicle veh1 = new Car("ABC-1234", "Ford", "Mustang", "25,000", "coupe", 2);
+            Vehicle veh2 = new Car("BKL-9866", "Toyota", "Camry", "19,000", "sedan", 4);
+            Vehicle veh3 = new Truck("LKY-2901", "Chevrolet", "Silverado 1500", "35,000", 6);
+
+            
             
             
         }
@@ -21,30 +22,27 @@ namespace CarLots
     class CarLot
     {
         public string Name { get; private set; }
-        private List<Vehicle> VehicleList = new List<Vehicle>();
+        public List<Vehicle> VehicleList = new List<Vehicle>();
         
 
         public CarLot(string InitialName)
         {
             Name = InitialName;
-            //this.VehicleList = new
         }
         //method that adds vehicle to carlot
-        //public void AddVehicle(Vehicle LicenseNumber, Vehicle Make, Vehicle Model, Vehicle Price)
-        public AddVehicle()
+        public virtual void AddVehicle(Vehicle veh1)
         {
-            
-            Truck truck1 = new Truck("8ft");
-            
-            VehicleList.Add(truck1);
-            
-
-            
+            VehicleList.Add(veh1);
         }
+        
         //method that prints inventory of carlot, # of vehicles, vehicle details
-        public void PrintInventory()
+        public virtual void PrintInventory()
         {
-
+            Console.WriteLine("Car lot {0} vehicles: ", Name);
+            foreach (Vehicle vehicle in VehicleList)
+            {
+                Console.WriteLine(vehicle.);
+            }
         }
     }
     abstract public class Vehicle
@@ -53,43 +51,56 @@ namespace CarLots
         public string Make { get; set; }
         public string Model { get; set; }
         public string Price { get; set; }
-        public Vehicle(string LicenseNumber, string Make, string Model, string Price)
+
+        public Vehicle(string licenseNumber, string make, string model, string price)
         {
-            this.LicenseNumber = LicenseNumber;
-            this.Make = Make;
-            this.Model = Model;
-            this.Price = Price;
+            LicenseNumber = licenseNumber;
+            Make = make;
+            Model = model;
+            Price = price;
         }
-        public (string LicenseNumber, string Make, string Model, string Price) VehicleInfo()
+        public virtual string Description()
         {
-            return (LicenseNumber, Make, Model, Price);
+            string Descrip = Make + " " + Model + "| Lic #: " + LicenseNumber + "| Price: $";
+            return Descrip;
         }
     }
     public class Truck : Vehicle
     {
-        public static string LicenseNumberInit { get; private set; }
-        public static string MakeInit { get; private set; }
-        public static string ModelInit { get; private set; }
-        public static string PriceInit { get; private set; }
-        public string Bedside { get; private set; }
+        public int Bedsize { get; private set; }
 
-        public Truck (string BedSizeInit):base (LicenseNumberInit, MakeInit, ModelInit, PriceInit)
+        public Truck(string licenseNumber, string make, string model, string price, int bedSize):base(licenseNumber, make, model, price)
         {
-            Bedside = BedSizeInit;
+            LicenseNumber = licenseNumber;
+            Make = make;
+            Model = model;
+            Price = price;
+            Bedsize = bedSize;
+        }
+        public override string Description()
+        {
+            string Descrip = Make + " " + Model + "Bed Size: " + Bedsize + "ft" + "| Lic #: " + LicenseNumber + "| Price: $";
+            return Descrip;
         }
     }
     public class Car : Vehicle
     {
-        public static string LicenseNumberInit { get; private set; }
-        public static string MakeInit { get; private set; }
-        public static string ModelInit { get; private set; }
-        public static string PriceInit { get; private set; }
         public static string Type { get; private set; }
         public static int Doors { get; private set; }
-        public Car (string TypeInit, int DoorsInit):base(LicenseNumberInit, MakeInit, ModelInit, PriceInit)
+
+        public Car(string licenseNumber, string make, string model, string price, string type, int doors):base(licenseNumber, make, model, price)
         {
-            Type = TypeInit;
-            Doors = DoorsInit;
+            LicenseNumber = licenseNumber;
+            Make = make;
+            Model = model;
+            Price = price;
+            Type = type;
+            Doors = doors;
+        }
+        public override string Description()
+        {
+            string Descrip = Make + " " + Model + Doors + "door " + Type + "| Lic #: " + LicenseNumber + "| Price: $";
+            return Descrip;
         }
     }
 }
