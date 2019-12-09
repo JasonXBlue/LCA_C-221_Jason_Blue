@@ -5,7 +5,7 @@ namespace TodoApp
 {
     public class ItemContext : DbContext
     {
-        public DbSet<ToDoItem> ItemsList { get; set; }
+        public DbSet<ToDoItem> Items { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -14,7 +14,7 @@ namespace TodoApp
             // get the base directory for the project
             DirectoryInfo ProjectBase = ExecutionDirectory.Parent.Parent.Parent;
             // add 'items.db' to the project directory
-            String DatabaseFile = Path.Combine(ProjectBase.FullName, "items.db");
+            String DatabaseFile = Path.Combine(ProjectBase.FullName, "Items.db");
             // to check what the path of the file is, uncomment the file below
             //Console.WriteLine("using database file :"+DatabaseFile);
             optionsBuilder.UseSqlite("Data Source=" + DatabaseFile);

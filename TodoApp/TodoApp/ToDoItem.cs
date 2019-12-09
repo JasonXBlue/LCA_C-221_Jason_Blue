@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 namespace TodoApp
 {
     public class ToDoItem
@@ -8,6 +9,7 @@ namespace TodoApp
         public string DueDate { get; private set; }
         public bool Done { get; set; }
         public bool Pending { get; set; }
+        public int ID { get; private set; }
         //constructor
         public ToDoItem(string description, string date, bool done, bool pending)
         {
