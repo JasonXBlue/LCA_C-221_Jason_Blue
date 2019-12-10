@@ -21,7 +21,7 @@ namespace TodoApp
         }
         //public void Save(ToDoItem item)
         //{
-        //    Database.ExecuteSqlCommand("INSERT INTO ToDoItems (Item, DueDate, Pending) VALUES ({0}, {1}, {2})", item.Item, item.DueDate, item.Pending);
+        //    Database.ExecuteSqlCommand("INSERT INTO Items (Item, DueDate, Pending) VALUES ({0}, {1}, {2})", item.Item, item.DueDate, item.Pending);
         //}
     }
 }
