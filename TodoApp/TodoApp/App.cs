@@ -10,13 +10,13 @@ namespace TodoApp
         {
     
         }
-        //public static List<ToDoItem> ListAllItems(string description, string date, bool done, bool pending)
+        //public static List<ToDoItem> ListAllItems(string item, string date, bool done, bool pending)
         //{
-        //    return ItemRepository.ListAllItems(description, date, done, pending);
+        //    return ItemRepository.ListAllItems(item, date, done, pending);
         //}
-        //public static void AddItemApp(string description, string date, bool done, bool pending)
+        //public static void AddItemApp(string item, string date, bool done, bool pending)
         //{
-        //    ItemRepository.AddItem(description, date, done, pending);
+        //    ItemRepository.AddItem(item, date, done, pending);
         //}
         //public static void DeleteItemApp(string IdNum)
         //{

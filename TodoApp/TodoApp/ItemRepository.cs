@@ -22,11 +22,11 @@ namespace TodoApp
             IEnumerable<ToDoItem> list = context.Items;
             return list.ToList();
         }
-        public void AddItem(string description, string date, bool done, bool pending)
+        public void AddItem(string item, string date, bool done, bool pending)
         {
             // create a new item object
             // add new item object
-            ToDoItem newItem = new ToDoItem(description, date, done, pending);
+            ToDoItem newItem = new ToDoItem(item, date, done, pending);
             context.Items.Add(newItem);
             //save changes to database
             context.SaveChanges();

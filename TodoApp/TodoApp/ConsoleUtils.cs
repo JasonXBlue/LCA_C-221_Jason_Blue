@@ -49,7 +49,7 @@ namespace TodoApp
             Console.WriteLine();
             foreach (ToDoItem i in ReviewToDoList)
             {
-                Console.WriteLine("   {0} | {1} | {2} | {3} | {4}", i.ID, i.Description, i.DueDate, i.Done);
+                Console.WriteLine("   {0} | {1} | {2} | {3} | {4}", i.ID, i.Item, i.DueDate, i.Done);
             }
         }
         //public static void PrintList()
