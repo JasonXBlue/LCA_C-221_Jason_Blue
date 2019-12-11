@@ -2,6 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using System.IO;
 using System.Collections.Generic;
+using Microsoft.Data.Sqlite;
+using System.Linq;
 namespace TodoApp
 {
     public class App
@@ -22,7 +24,7 @@ namespace TodoApp
         //{
         //    ItemRepository.DeleteItem(IdNum);
         //}
-      
+        
 
     }
 }

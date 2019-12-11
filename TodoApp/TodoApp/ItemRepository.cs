@@ -3,17 +3,22 @@ using Microsoft.EntityFrameworkCore;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data.SqlTypes;
+using System.Data.Sql;
+using System.Data.SqlClient;
+using Microsoft.Data.Sqlite;
 
 namespace TodoApp
 {
     public class ItemRepository
     {
         //public static ItemContext todolist = new ItemContext();
-        ItemContext context;
+        //ItemContext context;
+        ItemContext context = new ItemContext();
 
         public ItemRepository()
         {
-            context = new ItemContext();
+            //ItemContext context = new ItemContext();
             //make sure table exist and create it if not
             context.Database.EnsureCreated();   
         }

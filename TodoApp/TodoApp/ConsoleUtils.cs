@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using System.IO;
+using Microsoft.Data.Sqlite;
+using System.Linq;
 
 namespace TodoApp
 {
