@@ -28,13 +28,5 @@ namespace TodoApp
         {
             optionsBuilder.UseSqlite(@"Data Source=/Users/jasonblue/Desktop/ToDoList.db");
         }
-
-
-        //public void Save(ToDoItem item)
-        //{
-        //    Database.ExecuteSqlCommand("INSERT INTO Items (Item, DueDate, Pending) VALUES ({0}, {1}, {2})", item.Item, item.DueDate, item.Pending);
-        //}
-        // This property corresponds to the table in our database
-
     }
 }

@@ -16,7 +16,6 @@ namespace TodoApp
 
         public ItemRepository()
         {
-            //ItemContext context = new ItemContext();
             //make sure table exist and create it if not
             todoList.Database.EnsureCreated();
         }
