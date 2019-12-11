@@ -20,7 +20,7 @@ namespace TodoApp
         {
             ItemRepository.AddItem(item, dueDate, pending);
         }
-        public  List<ToDoItem> ListItems()
+        public static List<ToDoItem> ListItems()
         {
             return ItemRepository.GetAllToDoItems();
         }

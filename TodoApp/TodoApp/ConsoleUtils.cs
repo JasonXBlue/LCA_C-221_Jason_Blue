@@ -9,10 +9,12 @@ namespace TodoApp
 {
     public class ConsoleUtils
     {
+        public App App;
         public ConsoleUtils()
         {
-
+            App = new App();
         }
+        //method to get input from user
         public static void UserInput()
         {
             bool Quit = false;
@@ -51,7 +53,7 @@ namespace TodoApp
                 }
             }
         }
-
+        //method to print to do list
         private static void PrintList(ItemContext todoList)
         {
             throw new NotImplementedException();
@@ -65,8 +67,8 @@ namespace TodoApp
             string dueDate = Console.ReadLine();
             App.AddItemApp(item, dueDate, true);
         }
-        
-        
+
+        //List<ToDoItem> List = App.ListItems();
         public static void PrintList(List<ToDoItem> List)
         {
             Console.WriteLine("The Current List of items are: \n");
