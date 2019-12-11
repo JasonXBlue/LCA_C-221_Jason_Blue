@@ -10,40 +10,34 @@ using Microsoft.Data.Sqlite;
 
 namespace TodoApp
 {
-    public class ItemRepository
+    class ItemRepository
     {
-        //public static ItemContext todolist = new ItemContext();
-        //ItemContext context;
-        ItemContext context = new ItemContext();
+        public static ItemContext todoList = new ItemContext();
 
         public ItemRepository()
         {
             //ItemContext context = new ItemContext();
             //make sure table exist and create it if not
-            context.Database.EnsureCreated();   
+            todoList.Database.EnsureCreated();
         }
-        public List<ToDoItem> GetToDoItems()
+        
+        
+        public static void AddItem(string item, string dueDate, bool pending)
         {
-            IEnumerable<ToDoItem> list = context.Items;
-            return list.ToList();
-        }
-        public void AddItem(string item, string date, bool done, bool pending)
-        {
-            // create a new item object
-            // add new item object
-            ToDoItem newItem = new ToDoItem(item, date, done, pending);
-            context.Items.Add(newItem);
+      
+            ToDoItem newToDoItem = new ToDoItem(item, dueDate, pending);
+            todoList.Add(newToDoItem);
             //save changes to database
-            context.SaveChanges();
+            todoList.SaveChanges();
         }
-        public ToDoItem DeleteItem(int id)
+        public static ToDoItem DeleteItem(int id)
         {
-            ToDoItem delItem = context.Items.Where(item => item.ID == id).FirstOrDefault();
+            ToDoItem delItem = todoList.ToDoItems.Where(item => item.ID == id).FirstOrDefault();
 
             if (delItem != null)
             {
-                context.Items.Remove(delItem);
-                context.SaveChanges();
+                todoList.ToDoItems.Remove(delItem);
+                todoList.SaveChanges();
                 return delItem;
             }
             else
@@ -51,9 +45,30 @@ namespace TodoApp
                 return null;
             }
         }
-        //public void Save(ToDoItem item)
-        //{
-        //    context.Save(item);
-        //}
+
+        public static List<ToDoItem> GetAllToDoItems()
+        {
+            IEnumerable<ToDoItem> list = todoList.ToDoItems;
+            return list.ToList();
+          
+        }
+        public static List<ToDoItem> GetToDoItems(string sort)
+        {
+            string SortLow = sort.ToLower();
+            if (SortLow == "done")
+            {
+                IEnumerable<ToDoItem> list = todoList.ToDoItems.Where(item => item.Pending == false);
+                return list.ToList();
+            }
+            else if (SortLow == "pend")
+            {
+                IEnumerable<ToDoItem> list = todoList.ToDoItems.Where(item => item.Pending == true);
+                return list.ToList();
+            }
+            else
+            {
+                return null;
+            }
+        }
     }
 }

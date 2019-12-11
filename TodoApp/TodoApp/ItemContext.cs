@@ -10,24 +10,24 @@ namespace TodoApp
 {
     public class ItemContext : DbContext
     {
-        public DbSet<ToDoItem> Items { get; set; }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            // get the directory the code is being executed from
-            DirectoryInfo ExecutionDirectory = new DirectoryInfo(AppContext.BaseDirectory);
-            // get the base directory for the project
-            DirectoryInfo ProjectBase = ExecutionDirectory.Parent.Parent.Parent;
-            // add 'items.db' to the project directory
-            String DatabaseFile = Path.Combine(ProjectBase.FullName, "ToDoItems.db");
-            // to check what the path of the file is, uncomment the file below
-            Console.WriteLine("using database file :" + DatabaseFile);
-            optionsBuilder.UseSqlite("Data Source=" + DatabaseFile);
-        }
-
+        public DbSet<ToDoItem> ToDoItems { get; set; }
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
-        //    optionsBuilder.UseSqlite(@"Data Source=/Users/jasonblue/Desktop/Items.db");
+        //    // get the directory the code is being executed from
+        //    DirectoryInfo ExecutionDirectory = new DirectoryInfo(AppContext.BaseDirectory);
+        //    // get the base directory for the project
+        //    DirectoryInfo ProjectBase = ExecutionDirectory.Parent.Parent.Parent;
+        //    // add 'items.db' to the project directory
+        //    String DatabaseFile = Path.Combine(ProjectBase.FullName, "ToDoItems.db");
+        //    // to check what the path of the file is, uncomment the file below
+        //    Console.WriteLine("using database file :" + DatabaseFile);
+        //    optionsBuilder.UseSqlite("Data Source=" + DatabaseFile);
         //}
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlite(@"Data Source=/Users/jasonblue/Desktop/ToDoList.db");
+        }
 
 
         //public void Save(ToDoItem item)

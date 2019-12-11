@@ -8,23 +8,30 @@ namespace TodoApp
 {
     public class App
     {
-        public void Start()
+
+
+
+        public App()
         {
-    
+
         }
-        //public static List<ToDoItem> ListAllItems(string item, string date, bool done, bool pending)
-        //{
-        //    return ItemRepository.ListAllItems(item, date, done, pending);
-        //}
-        //public static void AddItemApp(string item, string date, bool done, bool pending)
-        //{
-        //    ItemRepository.AddItem(item, date, done, pending);
-        //}
-        //public static void DeleteItemApp(string IdNum)
-        //{
-        //    ItemRepository.DeleteItem(IdNum);
-        //}
-        
+
+        public static void AddItemApp(string item, string dueDate, bool pending)
+        {
+            ItemRepository.AddItem(item, dueDate, pending);
+        }
+        public  List<ToDoItem> ListItems()
+        {
+            return ItemRepository.GetAllToDoItems();
+        }
+        public List<ToDoItem> ListItems(string sort)
+        {
+            return ItemRepository.GetToDoItems(sort);
+        }
+        public ToDoItem DeleteItems(int id)
+        {
+            return ItemRepository.DeleteItem(id);
+        }
 
     }
 }

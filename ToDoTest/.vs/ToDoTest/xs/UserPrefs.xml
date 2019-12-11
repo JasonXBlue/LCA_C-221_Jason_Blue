@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{BB25F0F0-6CF1-47B8-8BF6-B5AD557E6524}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoTest/ItemContext.cs">
+    <Files>
+      <File FileName="ToDoTest/Program.cs" Line="5" Column="1" />
+      <File FileName="ToDoTest/ItemContext.cs" Line="16" Column="10" />
+      <File FileName="ToDoTest/ToDoItem.cs" Line="6" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ToDoTest" expanded="True">
+            <Node name="ToDoTest" expanded="True">
+              <Node name="ItemContext.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ToDoTest FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

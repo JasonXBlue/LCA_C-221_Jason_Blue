@@ -18,50 +18,72 @@ namespace TodoApp
             bool Quit = false;
             while (!Quit)
             {
-                ReviewList();
-                Console.WriteLine("Do you want to 'add' an item, 'delete' an item ?");
+                //PrintList();
+                Console.WriteLine("Do you want to 'add' an item, 'delete' an item, 'list' all items, 'done' to list done items, 'pend' to list pending items\n");
+                Console.WriteLine("Enter 'add','delete', 'list', 'done', 'pend' :");
                 string Input = Console.ReadLine().ToLower();
 
                 if (Input == "add")
                 {
-                    EnterItem();
+                    AddItem();
                     Quit = true;
+                }
+                else if (Input == "delete")
+                {
+                    Console.WriteLine("Enter the id number to delete: ");
+                    int DelId = Convert.ToInt32(Console.ReadLine());
+                    ItemRepository.DeleteItem(DelId);
+                }
+                else if (Input == "list")
+                {
+                    ItemRepository.GetAllToDoItems();
+                    //List<ToDoItem> allList = App.ListItems();
+                    //PrintList(allList);
+                }
+                else if (Input == "done")
+                {
+                    ItemRepository.GetToDoItems(Input);
+                    //List<ToDoItem> allList = App.ListItems("done");
+                }
+                else
+                {
+                    Console.WriteLine("You did not enter correct response. Please try again: ");
                 }
             }
         }
 
-
-        public static ToDoItem EnterItem()
+        private static void PrintList(ItemContext todoList)
         {
-            Console.WriteLine("Enter item:");
-            string ItemEntry = Console.ReadLine();
+            throw new NotImplementedException();
+        }
+
+        public static void AddItem()
+        {
+            Console.WriteLine("Enter description of To Do item:");
+            string item = Console.ReadLine();
             Console.WriteLine("Enter due date for item in DD/MM/YYYY format:");
-            string DateEntry = Console.ReadLine();
-            return new ToDoItem(ItemEntry, DateEntry, false, true);
+            string dueDate = Console.ReadLine();
+            App.AddItemApp(item, dueDate, true);
         }
-        public static void DeleteItem()
+        
+        
+        public static void PrintList(List<ToDoItem> List)
         {
+            Console.WriteLine("The Current List of items are: \n");
 
-        }
-        public static void ReviewList()
-        {
-            List<ToDoItem> ReviewToDoList = new List<ToDoItem>();
-            Console.Clear();
-            Console.WriteLine("ToDo List (ID | Description | Due Date | Status | ");
-            Console.WriteLine();
-            foreach (ToDoItem i in ReviewToDoList)
+            if (List != null)
             {
-                Console.WriteLine("   {0} | {1} | {2} | {3} | {4}", i.ID, i.Item, i.DueDate, i.Done);
+                foreach (ToDoItem i in List)
+                {
+                    Console.WriteLine("{0} - Item: {1} | DueDate: {2} | Pending {3}",
+                         i.ID, i.Item, i.DueDate, i.Pending);
+                }
+            }
+            else
+            {
+                Console.WriteLine("List is empty.");
             }
         }
-        //public static void PrintList()
-        //{
-        //    ItemContext context = new ItemContext();
-        //    foreach (ToDoItem item in context.)
-        //    {
-        //        Console.WriteLine("   {0} | {1} | {2} | {3} | {4}", item.ID, item.Description, item.DueDate, item.Done);
-        //    }
-        //}
-     
+
     }
 }
