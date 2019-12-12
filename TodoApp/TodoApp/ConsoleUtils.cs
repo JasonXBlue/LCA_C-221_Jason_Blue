@@ -20,21 +20,29 @@ namespace TodoApp
             bool Quit = false;
             while (!Quit)
             {
-                //PrintList();
-                Console.WriteLine("\nDo you want to 'add' an item, 'delete' an item, 'list' all items, 'done' to list done items, 'pend' to list pending items\n");
-                Console.WriteLine("Enter 'add','delete', 'list', 'done', 'pend' :");
+                Console.WriteLine("** To Do List **");
+                Console.WriteLine("\n[add] to add item: ");
+                Console.WriteLine("[delete] to delete item: ");
+                Console.WriteLine("[list] to list all items: ");
+                Console.WriteLine("[done] to list all done items: ");
+                Console.WriteLine("[pend] to list all pending items");
+                Console.WriteLine("[quit] to quit: ");
                 string Input = Console.ReadLine().ToLower();
 
                 if (Input == "add")
                 {
                     AddItem();
-                    Quit = true;
+                    Console.Clear();
                 }
                 else if (Input == "delete")
                 {
+                    ItemRepository.GetAllToDoItems();
+                    List<ToDoItem> allList = App.ListItems();
+                    PrintList(allList);
                     Console.WriteLine("Enter the id number to delete: ");
                     int DelId = Convert.ToInt32(Console.ReadLine());
                     ItemRepository.DeleteItem(DelId);
+                    Console.Clear();
                 }
                 else if (Input == "list")
                 {
@@ -47,6 +55,10 @@ namespace TodoApp
                     ItemRepository.GetToDoItems(Input);
                     List<ToDoItem> allList = App.ListItems("done");
                     PrintList(allList);
+                }
+                else if (Input == "quit")
+                {
+                    Quit = true;
                 }
                 else
                 {
@@ -64,7 +76,7 @@ namespace TodoApp
         {
             Console.WriteLine("Enter description of To Do item:");
             string item = Console.ReadLine();
-            Console.WriteLine("Enter due date for item in DD/MM/YYYY format:");
+            Console.WriteLine("Enter due date for item in DD/MM/YY format:");
             string dueDate = Console.ReadLine();
             App.AddItemApp(item, dueDate, true);
         }
@@ -74,7 +86,7 @@ namespace TodoApp
         public static void PrintList(List<ToDoItem> List1)
         {
             
-            Console.WriteLine("The Current List of items are: \n");
+            Console.WriteLine("** To Do List **");
 
             if (List1 != null)
             {
