@@ -44,6 +44,11 @@ namespace TodoApp
                 return null;
             }
         }
+        //public static ToDoItem MarkDone(int id, string dueDate, bool pending)
+        //{
+        //    pending = false;
+        //    Chan = ToDoItem
+        //}
 
         public static List<ToDoItem> GetAllToDoItems()
         {

@@ -24,7 +24,7 @@ namespace TodoApp
         {
             return ItemRepository.GetAllToDoItems();
         }
-        public List<ToDoItem> ListItems(string sort)
+        public static List<ToDoItem> ListItems(string sort)
         {
             return ItemRepository.GetToDoItems(sort);
         }
@@ -32,6 +32,10 @@ namespace TodoApp
         {
             return ItemRepository.DeleteItem(id);
         }
+        //public ToDoItem MarkDone(int id, pending)
+        //{
+
+        //}
 
     }
 }

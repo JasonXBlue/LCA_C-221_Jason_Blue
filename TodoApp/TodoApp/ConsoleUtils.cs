@@ -21,7 +21,7 @@ namespace TodoApp
             while (!Quit)
             {
                 //PrintList();
-                Console.WriteLine("Do you want to 'add' an item, 'delete' an item, 'list' all items, 'done' to list done items, 'pend' to list pending items\n");
+                Console.WriteLine("\nDo you want to 'add' an item, 'delete' an item, 'list' all items, 'done' to list done items, 'pend' to list pending items\n");
                 Console.WriteLine("Enter 'add','delete', 'list', 'done', 'pend' :");
                 string Input = Console.ReadLine().ToLower();
 
@@ -39,13 +39,14 @@ namespace TodoApp
                 else if (Input == "list")
                 {
                     ItemRepository.GetAllToDoItems();
-                    //List<ToDoItem> allList = App.ListItems();
-                    //PrintList(allList);
+                    List<ToDoItem> allList = App.ListItems();
+                    PrintList(allList);
                 }
                 else if (Input == "done")
                 {
                     ItemRepository.GetToDoItems(Input);
-                    //List<ToDoItem> allList = App.ListItems("done");
+                    List<ToDoItem> allList = App.ListItems("done");
+                    PrintList(allList);
                 }
                 else
                 {
@@ -53,7 +54,7 @@ namespace TodoApp
                 }
             }
         }
-        //method to print to do list
+        
         private static void PrintList(ItemContext todoList)
         {
             throw new NotImplementedException();
@@ -68,14 +69,16 @@ namespace TodoApp
             App.AddItemApp(item, dueDate, true);
         }
 
-        //List<ToDoItem> List = App.ListItems();
-        public static void PrintList(List<ToDoItem> List)
+        List<ToDoItem> List1 = App.ListItems();
+        //method to print to do list
+        public static void PrintList(List<ToDoItem> List1)
         {
+            
             Console.WriteLine("The Current List of items are: \n");
 
-            if (List != null)
+            if (List1 != null)
             {
-                foreach (ToDoItem i in List)
+                foreach (ToDoItem i in List1)
                 {
                     Console.WriteLine("{0} - Item: {1} | DueDate: {2} | Pending {3}",
                          i.ID, i.Item, i.DueDate, i.Pending);
