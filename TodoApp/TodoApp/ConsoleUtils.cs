@@ -24,7 +24,8 @@ namespace TodoApp
                 Console.WriteLine("\n[add] to add item: ");
                 Console.WriteLine("[delete] to delete item: ");
                 Console.WriteLine("[list] to list all items: ");
-                Console.WriteLine("[done] to list all done items: ");
+                Console.WriteLine("[done] to mark item done: ");
+                Console.WriteLine("[listdone] to list all done items: ");
                 Console.WriteLine("[pend] to list all pending items");
                 Console.WriteLine("[quit] to quit: ");
                 string Input = Console.ReadLine().ToLower();
@@ -51,6 +52,16 @@ namespace TodoApp
                     PrintList(allList);
                 }
                 else if (Input == "done")
+                {
+                    ItemRepository.GetAllToDoItems();
+                    List<ToDoItem> allList = App.ListItems();
+                    PrintList(allList);
+                    Console.WriteLine("Enter the id of item you want to mark done :");
+                    int IdDone = Convert.ToInt32(Console.ReadLine());
+                    ItemRepository.MarkDone(IdDone);
+                }
+
+                else if (Input == "listdone")
                 {
                     ItemRepository.GetToDoItems(Input);
                     List<ToDoItem> allList = App.ListItems("done");

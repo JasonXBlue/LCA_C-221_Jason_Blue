@@ -44,11 +44,21 @@ namespace TodoApp
                 return null;
             }
         }
-        //public static ToDoItem MarkDone(int id, string dueDate, bool pending)
-        //{
-        //    pending = false;
-        //    Chan = ToDoItem
-        //}
+        public static ToDoItem MarkDone(int ID)
+        {
+            ToDoItem OldItem = todoList.ToDoItems.Where(item => item.ID == ID).FirstOrDefault();
+            if (OldItem != null)
+            {
+                OldItem.Pending = false;
+                todoList.Update(OldItem);
+                todoList.SaveChanges();
+                return OldItem;
+            }
+            else
+            {
+                return null;
+            }
+        }
 
         public static List<ToDoItem> GetAllToDoItems()
         {

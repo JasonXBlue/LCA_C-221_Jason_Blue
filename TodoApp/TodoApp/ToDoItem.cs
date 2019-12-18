@@ -10,7 +10,7 @@ namespace TodoApp
         //fields
         public int ID { get; private set; }
         public string Item { get; set; }
-        public string DueDate { get; private set; }
+        public string DueDate { get; set; }
         public bool Pending { get; set; }
         
 

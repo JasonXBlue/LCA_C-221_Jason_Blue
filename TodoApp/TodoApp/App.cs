@@ -32,10 +32,10 @@ namespace TodoApp
         {
             return ItemRepository.DeleteItem(id);
         }
-        //public ToDoItem MarkDone(int id, pending)
-        //{
-
-        //}
+        public ToDoItem MarkDone(int id, string item, string dueDate, bool pending)
+        {
+            return ItemRepository.MarkDone(id);
+        }
 
     }
 }
