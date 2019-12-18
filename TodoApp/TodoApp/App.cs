@@ -8,14 +8,6 @@ namespace TodoApp
 {
     public class App
     {
-
-
-
-        public App()
-        {
-
-        }
-
         public static void AddItemApp(string item, string dueDate, bool pending)
         {
             ItemRepository.AddItem(item, dueDate, pending);
@@ -36,6 +28,5 @@ namespace TodoApp
         {
             return ItemRepository.MarkDone(id);
         }
-
     }
 }

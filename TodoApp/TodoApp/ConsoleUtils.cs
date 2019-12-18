@@ -32,7 +32,7 @@ namespace TodoApp
 
                 if (Input == "add")
                 {
-                    AddItem();
+                    //AddItem();
                     Console.Clear();
                 }
                 else if (Input == "delete")
@@ -65,6 +65,12 @@ namespace TodoApp
                 {
                     ItemRepository.GetToDoItems(Input);
                     List<ToDoItem> allList = App.ListItems("done");
+                    PrintList(allList);
+                }
+                else if (Input == "pend")
+                {
+                    ItemRepository.GetToDoItems(Input);
+                    List<ToDoItem> allList = App.ListItems("pend");
                     PrintList(allList);
                 }
                 else if (Input == "quit")
@@ -103,7 +109,7 @@ namespace TodoApp
             {
                 foreach (ToDoItem i in List1)
                 {
-                    Console.WriteLine("{0} - Item: {1} | DueDate: {2} | Pending {3}",
+                    Console.WriteLine("{0} - Item: {1} | DueDate: {2} | Complete? {3}",
                          i.ID, i.Item, i.DueDate, i.Pending);
                 }
             }
