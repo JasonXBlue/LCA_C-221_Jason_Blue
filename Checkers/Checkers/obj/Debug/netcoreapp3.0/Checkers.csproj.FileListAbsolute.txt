@@ -1,3 +1,11 @@
 /Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Checkers/Checkers/obj/Debug/netcoreapp3.0/Checkers.csprojAssemblyReference.cache
 /Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Checkers/Checkers/obj/Debug/netcoreapp3.0/Checkers.AssemblyInfoInputs.cache
 /Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Checkers/Checkers/obj/Debug/netcoreapp3.0/Checkers.AssemblyInfo.cs
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Checkers/Checkers/bin/Debug/netcoreapp3.0/Checkers
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Checkers/Checkers/bin/Debug/netcoreapp3.0/Checkers.deps.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Checkers/Checkers/bin/Debug/netcoreapp3.0/Checkers.runtimeconfig.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Checkers/Checkers/bin/Debug/netcoreapp3.0/Checkers.runtimeconfig.dev.json
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Checkers/Checkers/bin/Debug/netcoreapp3.0/Checkers.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Checkers/Checkers/bin/Debug/netcoreapp3.0/Checkers.pdb
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Checkers/Checkers/obj/Debug/netcoreapp3.0/Checkers.dll
+/Users/jasonblue/Desktop/C#-Projects/C#Dev/LCA_C-221_Jason_Blue/Checkers/Checkers/obj/Debug/netcoreapp3.0/Checkers.pdb
